@@ -22,18 +22,20 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.widget.EditText;
+
 import com.ibm.iot.android.iotstarter.IoTStarterApplication;
 import com.ibm.iot.android.iotstarter.R;
 import com.ibm.iot.android.iotstarter.activities.MainPagerActivity;
-import com.ibm.iot.android.iotstarter.activities.TutorialPagerActivity;
 import com.ibm.iot.android.iotstarter.activities.ProfilesActivity;
+import com.ibm.iot.android.iotstarter.activities.TutorialPagerActivity;
 import com.ibm.iot.android.iotstarter.activities.WebActivity;
+
+import androidx.fragment.app.Fragment;
 
 /**
  * This class provides common properties and functions for fragment subclasses used in the application.

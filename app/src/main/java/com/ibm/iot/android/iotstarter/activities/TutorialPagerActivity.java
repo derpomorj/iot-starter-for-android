@@ -17,16 +17,17 @@ package com.ibm.iot.android.iotstarter.activities;
 
 import android.content.res.Configuration;
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentActivity;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentPagerAdapter;
-import android.support.v4.view.ViewPager;
 import android.util.Log;
 import com.ibm.iot.android.iotstarter.R;
 import com.ibm.iot.android.iotstarter.fragments.TutorialFragmentA;
 import com.ibm.iot.android.iotstarter.fragments.TutorialFragmentB;
 import com.ibm.iot.android.iotstarter.fragments.TutorialFragmentC;
+
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentActivity;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentPagerAdapter;
+import androidx.viewpager.widget.ViewPager;
 
 /**
  * TutorialActivity provides a ViewPager with a few Fragments that provide

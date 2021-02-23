@@ -17,7 +17,6 @@ package com.ibm.iot.android.iotstarter.fragments;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -25,6 +24,8 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import com.ibm.iot.android.iotstarter.R;
 import com.ibm.iot.android.iotstarter.activities.MainPagerActivity;
+
+import androidx.fragment.app.Fragment;
 
 /**
  * Created by mprobert on 4/10/2015.

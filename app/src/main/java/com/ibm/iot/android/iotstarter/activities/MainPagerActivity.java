@@ -18,11 +18,6 @@ package com.ibm.iot.android.iotstarter.activities;
 import android.content.Intent;
 import android.content.res.Configuration;
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentActivity;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentPagerAdapter;
-import android.support.v4.view.ViewPager;
 import android.util.Log;
 import android.view.WindowManager;
 
@@ -32,7 +27,12 @@ import com.ibm.iot.android.iotstarter.fragments.IoTPagerFragment;
 import com.ibm.iot.android.iotstarter.fragments.LogPagerFragment;
 import com.ibm.iot.android.iotstarter.fragments.LoginPagerFragment;
 import com.ibm.iot.android.iotstarter.utils.Constants;
-import com.ibm.iot.android.iotstarter.views.DrawingView;
+
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentActivity;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentPagerAdapter;
+import androidx.viewpager.widget.ViewPager;
 
 /**
  * TutorialActivity provides a ViewPager with a few Fragments that provide

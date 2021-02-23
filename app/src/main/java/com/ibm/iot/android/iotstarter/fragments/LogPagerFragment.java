@@ -19,7 +19,6 @@ import android.app.AlertDialog;
 import android.content.*;
 import android.os.Build;
 import android.os.Bundle;
-import android.support.v4.app.ListFragment;
 import android.util.Log;
 import android.view.*;
 import android.widget.ArrayAdapter;
@@ -30,6 +29,8 @@ import com.ibm.iot.android.iotstarter.activities.ProfilesActivity;
 import com.ibm.iot.android.iotstarter.activities.TutorialPagerActivity;
 import com.ibm.iot.android.iotstarter.activities.WebActivity;
 import com.ibm.iot.android.iotstarter.utils.Constants;
+
+import androidx.fragment.app.ListFragment;
 
 /**
  * The Log fragment displays text command messages that have been received by the application.
